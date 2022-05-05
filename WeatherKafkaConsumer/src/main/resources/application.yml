@@ -1,0 +1,19 @@
+kafka:
+  bootstrapAddress: "localhost:9092"
+  schema.registry.url: "localhost:8081"
+
+lab:
+  weather-topic: "weather"
+  weather-processed-topic: "weather-processed"
+  station-topic: "stations"
+
+spring:
+  datasource:
+    url: "jdbc:postgresql://localhost:55432/db"
+    username: admin
+    password: admin
+  jpa:
+    generate-ddl: true
+
+server:
+  port: 8090
